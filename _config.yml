@@ -16,11 +16,10 @@ author: Jeanie Chen
 navbar-links:
   About Me: "https://jeanniechen.github.io/"
   Resources:
-    - Learn D3: "https://d3js.org/"
+    - D3: "https://d3js.org/"
     - R blog: "https://developer.r-project.org/Blog/public/"
-    - Learn Shiny: "https://shiny.rstudio.com/tutorial/written-tutorial/lesson1/"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-    - Learn Tensorflow: "https://www.tensorflow.org/tutorials"
+    - Markdown: "https://www.markdowntutorial.com/"
+    - Tensorflow: "https://www.tensorflow.org/tutorials"
 
 # --- Logo --- #
 
