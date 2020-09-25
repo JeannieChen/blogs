@@ -181,7 +181,7 @@ fb_comment_id: "" #"3694134930606160"
 date_format: "%B %-d, %Y"
 
 # Facebook App ID
-fb_app_id: "3694134930606160"
+# fb_app_id: "3694134930606160"
 
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
