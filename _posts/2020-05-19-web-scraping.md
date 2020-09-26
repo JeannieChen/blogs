@@ -90,7 +90,7 @@ Some website may ask users to first select country/region or enter a zipcode in 
 
 #### Country/Region
 
-Instead of insetring a fixed, unchanged request URL, we will make the url dynamic - setting the countrycode argument to change the URL accordingly depends on what region we're looking for. For example, here is the request URL for _**H&M**_, later we can call function ```locate_stores(countryCode='GB')``` if we need to search for locations in Great Britain specifically.
+Instead of inserting a fixed, unchanged request URL, we will make the url dynamic - setting the countrycode argument to change the URL accordingly depends on what region we're looking for. For example, below is the request URL for _**H&M**_, later we can call function ```locate_stores(countryCode='GB')``` if we need to search for locations in Great Britain specifically.
 
 ```python
 def locate_stores(countryCode):
