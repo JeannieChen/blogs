@@ -35,8 +35,9 @@ If Feathers(animal) || Files(animal) => Then ...
 ```
 
 ### Truth Table
-| **A** | **B** | **A || B** |
-| ----- | ----- | ---------- | 
+
+| A      | B |   A or B      |
+| :----:         |    :----:   |  :----:  |
 | True  | True  | True       |
 | True  | False | True       |
 | False | True  | True       |
