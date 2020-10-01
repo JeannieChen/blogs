@@ -16,8 +16,8 @@ We need it for two reasons:
 For example, if we want to put a sentence classifying birds into language of logic, we might say: _**If an animal has feathers, then it is a bird.**_ The sentences are language of logic.
 
 ### Predicates
-**Predicate** is a function that maps object arguments to true or false values. 
-i.e. _**Feathers(animal)**_, **":"** means indicates. 
+**Predicate** is a function that maps object arguments to true or false values. i.e. _**Feathers(animal)**_
+
 
 ``` If Feathers(animal): Then Bird(animal)```
 
