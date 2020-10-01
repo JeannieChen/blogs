@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Logic in Knowledge-based Artifical Intelligence 
+title:  Logic in Knowledge-based Artificial Intelligence 
 subtitle: Formal logic and the cognitive connection
 tags: [kbai]
 ---
