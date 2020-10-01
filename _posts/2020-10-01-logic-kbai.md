@@ -59,3 +59,43 @@ The associative property applies when there is only conjunctions or disjunctions
 ```Given A => B, we can rewrite it as !A || B```
 
 ## Rules of Inference
+**Rules of Inference** instantiates general rules to prove specific claims.
+
+### Modus Ponens
+```
+Sentence 1: P => Q
+Sentence 2: P
+thus Sentence 3: Q
+```
+
+### Modus Tollens
+```
+Sentence 1: P => Q
+Sentence 2: !Q
+thus Sentence 3: !P
+```
+Those rules can be used for reasoning. For example, let's prove Harry is a bird using Moduc Ponens:
+```
+S1: Feathers(animal) => Bird(animal)
+S2: Feathers(Harry)
+S3: Bird(Harry)
+```
+Although the rules exist for a long time, it is hard to use these rules in AI agent because the computation is not feasible.
+
+### Universal Quantifiers & Existential Quantifier
+Propositional logic (zero-order logic) has key aspect that it does not have any variables, while existential and universal quantifier can be used with variables:
+- **Universal Quantifier** means give all values for the variable (FOR ALL)
+- **Existential Quantifier** means not true for all but is true for at least one (FOR AT LEAST ONE)
+
+## Proof by Refutation (Resolution Theorem Proving)
+Steps:
+1. Convert every sentence into a conjunctive normal form.
+2. RTP is proving by negation, hence we negate the last one
+3. List down what agent saw
+4. Find out negation of assumptions and cross them out
+5. If it is not null after elimination, then it means agent cannot prove it is true.
+
+## The Cognitive Connection 
+Logic is a formal and precise way to reason. So far most of the reasoning methods the AI agent used are deductive, but human behaviors are more likely to be inductive. Human use logic sometimes, but it is not a fundamental method.
+
+
